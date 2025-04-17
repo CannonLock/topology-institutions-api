@@ -86,8 +86,8 @@ export default function NavBar() {
               />
             </Search>
           </Box>
-          <a href='/ui/add-institution'>
-          <Button 
+          <Link href='/add-institution/'>
+          <Button
               sx={{
                 color: 'white',
                 '&:hover': {
@@ -95,7 +95,7 @@ export default function NavBar() {
                 }
               }}
             >Add Institution</Button>
-          </a>
+          </Link>
         </Toolbar>
       </AppBar>
       <Toolbar />
