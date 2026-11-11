@@ -89,8 +89,8 @@ export default function InstitutionList() {
             <TableCell>Control</TableCell>
             <TableCell>State</TableCell>
             <TableCell>Institution Size</TableCell>
-            <TableCell>Longitude</TableCell>
             <TableCell>Latitude</TableCell>
+            <TableCell>Longitude</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -146,8 +146,8 @@ export default function InstitutionList() {
                 <TableCell>
                   {institution.ipeds_metadata?.institution_size || 'N/A'}
                 </TableCell>
-                <TableCell>{institution.longitude || 'N/A'}</TableCell>
                 <TableCell>{institution.latitude || 'N/A'}</TableCell>
+                <TableCell>{institution.longitude || 'N/A'}</TableCell>
               </TableRow>
             ))
           ) : (
